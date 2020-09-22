@@ -1,0 +1,75 @@
+﻿@using PagedList.Mvc
+@using Microsoft.AspNet.Identity
+@model PagedList.IPagedList<ads.Models.DialogViewModel>
+
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/ADSLayout.cshtml";
+}
+
+<section class="ftco-section bg-light ftco-bread">
+    <div class="container">
+        <div class="row no-gutters slider-text align-items-center">
+            <div class="col-md-10 ftco-animate">
+                <p class="breadcrumbs">
+                    <span class="mr-2"><a href="/Ads/Index">Домой</a></span>
+                    <span>Сообщения</span>
+                </p>
+                <hr />
+            </div>
+        </div>
+    </div>
+</section>
+
+@foreach (var item in Model)
+{
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => item.Chatt.title)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => item.Chaters[0].User.UserName)
+        </th>
+        <th></th>
+    </tr>
+
+    <tr>
+        @if (item.Chatt.title != null)
+        {
+            <td>
+                @Html.ActionLink(item.Chatt.title, "Details", "Chats", new { id = item.Chatt.id }, null)
+            </td>
+        }
+        else
+        {
+            <td>
+                @Html.ActionLink(item.Chatt.Ad.title, "Details", "Chats", new { id = item.Chatt.id }, null)
+            </td>
+        }
+
+        <td>
+            @foreach (var chat in item.Chaters)
+            {
+            @Html.DisplayFor(modelItem => chat.User.UserName)
+
+            }
+        </td>
+        <td>Непрочитаных:
+            @Html.DisplayFor(modelItem => item.CountMess)
+         </td>
+        <td>
+        </td>
+    </tr>
+
+</table>
+}
+
+@*Пагинация*@
+<div class="row mt-3">
+    <div class="block-27">
+        @Html.PagedListPager(Model, page => Url.Action("Index", new { page = page}))
+    </div>
+</div>

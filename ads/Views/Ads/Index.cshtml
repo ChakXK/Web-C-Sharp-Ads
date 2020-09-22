@@ -1,0 +1,99 @@
+﻿@using PagedList.Mvc
+@model PagedList.IPagedList<ads.Models.Ad>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/ADSLayout.cshtml";
+}
+<section class="ftco-section bg-light ftco-bread">
+    <div class="container">
+        <div class="row no-gutters slider-text align-items-center">
+            <div class="col-md-10 ftco-animate">
+                <p class="breadcrumbs"> <span>Недавние объявления</span></p>
+                <hr />
+            </div>
+        </div>
+    </div>
+</section>
+
+        <section class="ftco-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8">
+                        <div class="row no-gutters">
+
+                            @foreach (var item in Model)
+                            {
+                            <div class="col-md-4 ftco-animate">
+                                @if (@item.Image != null)
+                                {
+                                    <div class="photography-entry img image-popup d-flex justify-content-center align-items-center" style="background-image:  url(@Url.Content(
+"~/Content/userfiles/" + @item.Image.id + @item.Image.name));">
+                                        <div class="overlay"></div>
+                                            <div class="text text-center">
+                                                <div class="text text-2 pt-2 mt-3">
+                                                    <h3>@item.title</h3>
+                                                    <div class="meta-wrap">
+                                                        <p class="meta">
+                                                            <span>@item.datetime</span>
+                                                        </p>
+                                                        <p>
+                                                            <span>@item.prise грн.</span>
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                                <h3>@item.Subject.name</h3>
+                                                <span class="tag">@Html.ActionLink("Подробно", "Details", new { id = item.id })</span>
+                                            </div>
+                                        </div>
+                                }
+                                else
+                                {
+                                <div class="photography-entry img image-popup d-flex justify-content-center align-items-center">
+                                    <div class="overlay"></div>
+                                    <div class="text text-center">
+                                        <div class="text text-2 pt-2 mt-3">
+                                            <h3>@item.title</h3>
+                                            <div class="meta-wrap">
+                                                <p class="meta">
+                                                    <span>@item.datetime</span>
+                                                </p>
+                                                <p>
+                                                    <span>@item.prise грн.</span>
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <h3>@item.Subject.name</h3>
+                                        <span class="tag">@Html.ActionLink("Подробно", "Details", new { id = item.id })</span>
+                                    </div>
+                                </div>
+                                }
+                                </div>
+                            }
+                            </div><!-- END-->
+
+                        @*Пагинация*@
+                        <div class="row mt-3">
+                                <div class="block-27">
+                                    @Html.PagedListPager(Model, page=>Url.Action("Index", new {page=page,id= ViewBag.catgid }))
+                                </div>
+                        </div>
+
+                    </div>
+
+                    <div class="col-lg-4 sidebar ftco-animate bg-light">
+                        <div class="sidebar-box ftco-animate">
+                            <h3 class="sidebar-heading">КАТЕГОРИИ</h3>
+                            <ul class="categories">
+                                 @foreach (var cat in ViewBag.categories)
+                                 {
+                                <li><a href="/Ads/Index?id=@cat.Id">@cat.Name<span>(@cat.Count)</span></a></li>
+                                 }
+                            </ul>
+                        </div>
+                    </div><!-- END COL -->
+                </div>
+            </div>
+        </section>
+      
+

@@ -1,0 +1,54 @@
+﻿@model IEnumerable<ads.Models.Review>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/ADSLayout.cshtml";
+}
+
+<section class="ftco-section bg-light ftco-bread">
+    <div class="container">
+        <div class="row no-gutters slider-text align-items-center">
+            <div class="col-md-10 ftco-animate">
+                <p class="breadcrumbs"> <span>Отзывы</span></p>
+                <hr />
+            </div>
+        </div>
+    </div>
+</section>
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.Label("Имя")
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.text)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.datetime)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.UserSender.UserName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.text)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.datetime)
+        </td>
+        @if (User.IsInRole("Admin"))
+        {
+        <td>
+            @Html.ActionLink("Удалить", "Delete", new { id = item.id })
+        </td>
+        }
+
+    </tr>
+}
+
+</table>

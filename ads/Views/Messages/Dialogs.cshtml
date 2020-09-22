@@ -1,0 +1,34 @@
+﻿@model ads.Models.DialogViewModel
+@{
+    ViewBag.Title = "Dialogs";
+    Layout = "~/Views/Shared/ADSLayout.cshtml";
+}
+
+<h2>Dialogs</h2>
+
+
+    @Html.DisplayFor(model=>model.User.Id)
+<br />
+<p>
+    @foreach (var item in Model.Messages)
+    {
+        <tr>
+            <td>
+                -----
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.text)
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                -----
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Ad.title)
+            </td>
+        </tr>
+    }
+</p>
+

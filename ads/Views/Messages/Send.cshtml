@@ -1,0 +1,28 @@
+﻿@model ads.Models.Message
+
+@if (ViewBag.formMessage == true)
+{
+
+    <div class="col-md-6 order-md-last d-flex">
+        @using (Html.BeginForm("Create", "Messages", FormMethod.Post))
+        {
+            @Html.AntiForgeryToken()
+            @Html.Hidden("idAd", @ViewBag.idAd as int?)
+          
+
+            <div class="form-group">
+                <div class="col-md-10">
+                    @Html.EditorFor(model=> model.text, new { htmlAttributes = new { @class = "form-control" } })
+                    @Html.ValidationMessageFor(model => model.text, "", new { @class = "text-danger" })
+                </div>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Send Message" class="btn btn-primary py-3 px-5">
+            </div>
+        }
+    </div>
+    }
+
+
+
+

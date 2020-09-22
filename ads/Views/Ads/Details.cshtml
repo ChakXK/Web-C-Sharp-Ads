@@ -1,0 +1,77 @@
+﻿
+@using Microsoft.AspNet.Identity
+@using ads.Models
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/ADSLayout.cshtml";
+}
+
+@model ads.Models.Ad
+<section class="ftco-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8">
+                <div class="row no-gutters">
+                    <section class="ftco-section bg-light ftco-bread">
+                        <div class="container">
+                            <div class="row no-gutters slider-text align-items-center">
+                                <div class="col-md-9 ftco-animate">
+                                    <p class="breadcrumbs"><span class="mr-2"><a href="/Ads/Index">Домой</a></span> <span>Подробно</span></p>
+                                    <h1 class="mb-3 bread">@Model.title</h1>
+                                    <p>@Model.text</p>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-lg-8 ftco-animate col text-center">
+                                    <p>
+                                       @if (Model.Image != null)
+                                       { <img src="@Url.Content("~/Content/userfiles/" + Model.Image.id + @Model.Image.name)" alt="" class="img-fluid">}
+                                    </p>
+                                    <div class="tag-widget post-tag-container mb-5 mt-5">
+                                        <div class="tagcloud">
+                                            <a href="#" class="tag-cloud-link">@Model.prise грн</a>
+                                            <a href="#" class="tag-cloud-link">@Model.Subject.name</a>
+                                            <a href="#" class="tag-cloud-link">@Model.datetime</a>
+                                            <a href="/Ads/UserAds/@Model.idUser" class="tag-cloud-link">@Model.User.UserName</a>
+                                            @if (ViewBag.buttonEdit == true)
+                                            { @Html.ActionLink("Редактировать", "Edit", new { id = Model.id }, new { @class = "tag-cloud-link" })}
+                                            @if (ViewBag.buttonDelete == true)
+                                            { @Html.ActionLink("Удалить", "Delete", new { id = Model.id }, new {@class= "tag-cloud-link"})}
+                                        </div>
+                                    </div>
+                                    <hr />
+                                    @if (User.Identity.IsAuthenticated == false ||
+                                       User.Identity.IsAuthenticated == true &&
+                                       User.Identity.GetUserId() != Model.idUser)
+                                    {
+                                    @Html.Partial("~/Views/Messages/CreatePartial.cshtml", new Message { Chat = new Chat { idAd = Model.id } })
+                                    }
+                                </div>
+                            </div>
+
+                        </div>
+                    </section>
+                        </div><!-- END-->
+                    </div>
+
+                    <div class="col-lg-4 sidebar ftco-animate bg-light">
+                        <div class="sidebar-box ftco-animate">
+                            <h3 class="sidebar-heading">Отзывы о пользователе</h3>
+                            <span class="mr-2"><a href="/Reviews/About/@Model.idUser">
+                                Посмотреть все отзывы</a></span>
+                            @Html.Partial("~/Views/Reviews/AboutPartial.cshtml", new ReviewsAboutViewModel
+               {
+                   Reviews = ViewBag.Reviews,
+                   Recipient = Model.User
+               })
+                        </div>
+                    </div><!-- END COL -->
+                </div>
+    </div>
+</section>
+
+
+
+
+

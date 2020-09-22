@@ -1,0 +1,101 @@
+﻿@using PagedList.Mvc
+@model PagedList.IPagedList<ads.Models.Ad>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/ADSLayout.cshtml";
+}
+
+<section class="ftco-section bg-light ftco-bread">
+    <div class="container">
+        <div class="row no-gutters slider-text align-items-center">
+            <div class="col-md-10 ftco-animate">
+                <p class="breadcrumbs"> <span>Все объявления</span></p>
+                <hr />
+            </div>
+        </div>
+    </div>
+</section>
+
+        <section class="ftco-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8">
+                        <div class="row no-gutters">
+
+                 <table class="table">
+
+
+    @foreach (var item in Model)
+    {
+
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => item.AdStatus.name)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => item.Subject.name)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => item.title)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => item.prise)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => item.datetime)
+            </th>
+            <th></th>
+        </tr>
+
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.AdStatus.name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Subject.name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.title)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.prise)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.datetime)
+            </td>
+            <td>
+                @Html.ActionLink("Подробно", "Details", new { id=item.id })
+                @Html.ActionLink("Редактировать", "Edit", new { id = item.id })
+            </td>
+        </tr>
+    }
+
+    </table>
+                            </div><!-- END-->
+
+                        @*Пагинация*@
+                        <div class="row mt-3">
+                                <div class="block-27">
+                                    @Html.PagedListPager(Model, page=>Url.Action("AdminIndex", new {page=page,id= ViewBag.catgid }))
+                                </div>
+                        </div>
+
+                    </div>
+
+                    <div class="col-lg-4 sidebar ftco-animate bg-light">
+                        <div class="sidebar-box ftco-animate">
+                            <h3 class="sidebar-heading">Статус</h3>
+                            <ul class="categories">
+                                 @foreach (var cat in ViewBag.categories)
+                                 {
+                                <li><a href="/Ads/AdminIndex?id=@cat.Id">@cat.Name<span>(@cat.Count)</span></a></li>
+                                 }
+                            </ul>
+                        </div>
+                    </div><!-- END COL -->
+                </div>
+            </div>
+        </section>
+      
+

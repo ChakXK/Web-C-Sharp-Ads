@@ -1,0 +1,95 @@
+﻿@using Microsoft.AspNet.Identity
+@using System;
+@using System.Collections.Generic;
+@using System.Data;
+@using System.Data.Entity;
+@using System.Linq;
+@using System.Threading.Tasks;
+@using System.Net;
+@using System.Web;
+@using System.Web.Mvc;
+@using ads.Models;
+
+@if (Request.IsAuthenticated)
+            {
+                ApplicationDbContext db = new ApplicationDbContext();
+                var idUser = User.Identity.GetUserId();
+                var countMess = db.Chats.SelectMany(c => c.ChatUsers, (c, cu) => new { Chat = c,
+                    ChatUser = cu }).SelectMany(c => c.Chat.Messages, (ccu, m) => new { Chat = ccu.Chat, ChatUser = ccu.ChatUser, Messages = m }).
+            Where(c => c.ChatUser.idUser == idUser && c.Messages.idSender != idUser && c.Messages.isRead == false).Count();
+
+
+                var countReviews = db.Reviews.Where(r => r.idRecipient == idUser && r.isRead == false).Count();
+
+
+                if (User.IsInRole("Admin"))
+                {
+        <aside id="colorlib-aside" role="complementary" class="js-fullheight text-center">
+            <h1 id="colorlib-logo"><a href="/"><span class="icon-bullhorn"></span>free ads</a></h1>
+            <nav id="colorlib-main-menu" role="navigation">
+
+                @using (Html.BeginForm("LogOff", "Account", FormMethod.Post, new { id = "logoutForm" }))
+                {
+            @Html.AntiForgeryToken()
+
+            <ul>
+
+                <li>@Html.ActionLink("Обьявления", "AdminIndex", "Ads")</li>
+
+                <li>@Html.ActionLink("Сообщения(" + countMess.ToString() + ")", "Index", "ChatUsers", null, null)</li>
+
+                <li>@Html.ActionLink("Отзывы", "Index", "Reviews")</li>
+
+                <li>@Html.ActionLink("Настройки профиля", "Index", "Manage", routeValues: null, htmlAttributes: null)</li>
+
+                <li><a href="javascript:document.getElementById('logoutForm').submit()">Выйти</a></li>
+
+            </ul>
+                }
+            </nav>
+        </aside> <!-- END COLORLIB-ASIDE -->
+    }
+    else
+    {
+        <aside id="colorlib-aside" role="complementary" class="js-fullheight text-center">
+            <h1 id="colorlib-logo"><a href="/"><span class="icon-bullhorn"></span>free ads</a></h1>
+            <nav id="colorlib-main-menu" role="navigation">
+
+                @using (Html.BeginForm("LogOff", "Account", FormMethod.Post, new { id = "logoutForm" }))
+                {
+        @Html.AntiForgeryToken()
+
+        <ul>
+
+            <li>@Html.ActionLink("Подать обьявление", "Create", "Ads")</li>
+
+            <li><a href="/Ads">Все объявления</a></li>
+
+            <li>@Html.ActionLink("Мои обьявления", "UserAds", "Ads", routeValues: new { id = HttpContext.Current.User.Identity.GetUserId() }, htmlAttributes: null)</li>
+
+            <li>@Html.ActionLink("Сообщения(" + countMess.ToString() + ")", "Index", "ChatUsers", null, null)</li>
+
+            <li>@Html.ActionLink("Отзывы(" + countReviews.ToString() + ")", "About", "Reviews", new { id = HttpContext.Current.User.Identity.GetUserId() }, null)</li>
+
+            <li><a href="javascript:document.getElementById('logoutForm').submit()">Выйти</a></li>
+
+        </ul>
+                }
+            </nav>
+        </aside> <!-- END COLORLIB-ASIDE -->
+    }
+
+}
+else
+{
+    <aside id="colorlib-aside" role="complementary" class="js-fullheight text-center">
+        <h1 id="colorlib-logo"><a href="index.html"><span class="icon-bullhorn"></span>free ads</a></h1>
+        <nav id="colorlib-main-menu" role="navigation">
+            <ul>
+                <li>@Html.ActionLink("Регистрация", "Register", "Account", routeValues: null, htmlAttributes: new { id = "registerLink" })</li>
+                <li>@Html.ActionLink("Выполнить вход", "Login", "Account", routeValues: null, htmlAttributes: new { id = "loginLink" })</li>
+            </ul>
+        </nav>
+    </aside> <!-- END COLORLIB-ASIDE -->
+}
+

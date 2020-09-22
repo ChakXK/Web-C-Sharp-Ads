@@ -1,0 +1,323 @@
+D:\FL\Университет\ІІІ курс\Sigma I\ads\ads\bin\ApplicationInsights.config
+D:\FL\Университет\ІІІ курс\Sigma I\ads\ads\bin\roslyn\csc.exe
+D:\FL\Университет\ІІІ курс\Sigma I\ads\ads\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\FL\Университет\ІІІ курс\Sigma I\ads\ads\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\FL\Университет\ІІІ курс\Sigma I\ads\ads\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\FL\Университет\ІІІ курс\Sigma I\ads\ads\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\FL\Университет\ІІІ курс\Sigma I\ads\ads\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\FL\Университет\ІІІ курс\Sigma I\ads\ads\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\FL\Университет\ІІІ курс\Sigma I\ads\ads\bin\roslyn\System.Collections.Immutable.dll
+D:\FL\Университет\ІІІ курс\Sigma I\ads\ads\bin\roslyn\System.Reflection.Metadata.dll
+D:\FL\Университет\ІІІ курс\Sigma I\ads\ads\bin\roslyn\vbc.exe
+D:\FL\Университет\ІІІ курс\Sigma I\ads\ads\bin\roslyn\VBCSCompiler.exe
+D:\FL\Университет\ІІІ курс\Sigma I\ads\ads\bin\roslyn\VBCSCompiler.exe.config
+D:\FL\Университет\ІІІ курс\Sigma I\ads\ads\bin\ads.dll.config
+D:\FL\Университет\ІІІ курс\Sigma I\ads\ads\bin\ads.dll
+D:\FL\Университет\ІІІ курс\Sigma I\ads\ads\bin\ads.pdb
+D:\FL\Университет\ІІІ курс\Sigma I\ads\ads\bin\Antlr3.Runtime.dll
+D:\FL\Университет\ІІІ курс\Sigma I\ads\ads\bin\EntityFramework.dll
+D:\FL\Университет\ІІІ курс\Sigma I\ads\ads\bin\EntityFramework.SqlServer.dll
+D:\FL\Университет\ІІІ курс\Sigma I\ads\ads\bin\Microsoft.AI.Agent.Intercept.dll
+D:\FL\Университет\ІІІ курс\Sigma I\ads\ads\bin\Microsoft.AI.DependencyCollector.dll
+D:\FL\Университет\ІІІ курс\Sigma I\ads\ads\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\FL\Университет\ІІІ курс\Sigma I\ads\ads\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\FL\Университет\ІІІ курс\Sigma I\ads\ads\bin\Microsoft.AI.Web.dll
+D:\FL\Университет\ІІІ курс\Sigma I\ads\ads\bin\Microsoft.AI.WindowsServer.dll
+D:\FL\Университет\ІІІ курс\Sigma I\ads\ads\bin\Microsoft.ApplicationInsights.dll
+D:\FL\Университет\ІІІ курс\Sigma I\ads\ads\bin\Microsoft.AspNet.Identity.Core.dll
+D:\FL\Университет\ІІІ курс\Sigma I\ads\ads\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\FL\Университет\ІІІ курс\Sigma I\ads\ads\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\FL\Университет\ІІІ курс\Sigma I\ads\ads\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\FL\Университет\ІІІ курс\Sigma I\ads\ads\bin\Microsoft.Owin.dll
+D:\FL\Университет\ІІІ курс\Sigma I\ads\ads\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\FL\Университет\ІІІ курс\Sigma I\ads\ads\bin\Microsoft.Owin.Security.Cookies.dll
+D:\FL\Университет\ІІІ курс\Sigma I\ads\ads\bin\Microsoft.Owin.Security.dll
+D:\FL\Университет\ІІІ курс\Sigma I\ads\ads\bin\Microsoft.Owin.Security.Facebook.dll
+D:\FL\Университет\ІІІ курс\Sigma I\ads\ads\bin\Microsoft.Owin.Security.Google.dll
+D:\FL\Университет\ІІІ курс\Sigma I\ads\ads\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\FL\Университет\ІІІ курс\Sigma I\ads\ads\bin\Microsoft.Owin.Security.OAuth.dll
+D:\FL\Университет\ІІІ курс\Sigma I\ads\ads\bin\Microsoft.Owin.Security.Twitter.dll
+D:\FL\Университет\ІІІ курс\Sigma I\ads\ads\bin\Microsoft.Web.Infrastructure.dll
+D:\FL\Университет\ІІІ курс\Sigma I\ads\ads\bin\Newtonsoft.Json.dll
+D:\FL\Университет\ІІІ курс\Sigma I\ads\ads\bin\Owin.dll
+D:\FL\Университет\ІІІ курс\Sigma I\ads\ads\bin\System.Web.Helpers.dll
+D:\FL\Университет\ІІІ курс\Sigma I\ads\ads\bin\System.Web.Mvc.dll
+D:\FL\Университет\ІІІ курс\Sigma I\ads\ads\bin\System.Web.Optimization.dll
+D:\FL\Университет\ІІІ курс\Sigma I\ads\ads\bin\System.Web.Razor.dll
+D:\FL\Университет\ІІІ курс\Sigma I\ads\ads\bin\System.Web.WebPages.Deployment.dll
+D:\FL\Университет\ІІІ курс\Sigma I\ads\ads\bin\System.Web.WebPages.dll
+D:\FL\Университет\ІІІ курс\Sigma I\ads\ads\bin\System.Web.WebPages.Razor.dll
+D:\FL\Университет\ІІІ курс\Sigma I\ads\ads\bin\WebGrease.dll
+D:\FL\Университет\ІІІ курс\Sigma I\ads\ads\bin\Microsoft.AI.DependencyCollector.xml
+D:\FL\Университет\ІІІ курс\Sigma I\ads\ads\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\FL\Университет\ІІІ курс\Sigma I\ads\ads\bin\Microsoft.AI.Web.xml
+D:\FL\Университет\ІІІ курс\Sigma I\ads\ads\bin\Microsoft.AI.WindowsServer.xml
+D:\FL\Университет\ІІІ курс\Sigma I\ads\ads\bin\Microsoft.ApplicationInsights.xml
+D:\FL\Университет\ІІІ курс\Sigma I\ads\ads\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\FL\Университет\ІІІ курс\Sigma I\ads\ads\bin\System.Web.Helpers.xml
+D:\FL\Университет\ІІІ курс\Sigma I\ads\ads\bin\System.Web.Mvc.xml
+D:\FL\Университет\ІІІ курс\Sigma I\ads\ads\bin\System.Web.Optimization.xml
+D:\FL\Университет\ІІІ курс\Sigma I\ads\ads\bin\System.Web.Razor.xml
+D:\FL\Университет\ІІІ курс\Sigma I\ads\ads\bin\System.Web.WebPages.xml
+D:\FL\Университет\ІІІ курс\Sigma I\ads\ads\bin\System.Web.WebPages.Deployment.xml
+D:\FL\Университет\ІІІ курс\Sigma I\ads\ads\bin\System.Web.WebPages.Razor.xml
+D:\FL\Университет\ІІІ курс\Sigma I\ads\ads\bin\Antlr3.Runtime.pdb
+D:\FL\Университет\ІІІ курс\Sigma I\ads\ads\bin\Newtonsoft.Json.xml
+D:\FL\Университет\ІІІ курс\Sigma I\ads\ads\bin\EntityFramework.xml
+D:\FL\Университет\ІІІ курс\Sigma I\ads\ads\bin\EntityFramework.SqlServer.xml
+D:\FL\Университет\ІІІ курс\Sigma I\ads\ads\bin\Microsoft.AspNet.Identity.Core.xml
+D:\FL\Университет\ІІІ курс\Sigma I\ads\ads\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\FL\Университет\ІІІ курс\Sigma I\ads\ads\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\FL\Университет\ІІІ курс\Sigma I\ads\ads\bin\Microsoft.Owin.xml
+D:\FL\Университет\ІІІ курс\Sigma I\ads\ads\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\FL\Университет\ІІІ курс\Sigma I\ads\ads\bin\Microsoft.Owin.Security.xml
+D:\FL\Университет\ІІІ курс\Sigma I\ads\ads\bin\Microsoft.Owin.Security.Facebook.xml
+D:\FL\Университет\ІІІ курс\Sigma I\ads\ads\bin\Microsoft.Owin.Security.Cookies.xml
+D:\FL\Университет\ІІІ курс\Sigma I\ads\ads\bin\Microsoft.Owin.Security.OAuth.xml
+D:\FL\Университет\ІІІ курс\Sigma I\ads\ads\bin\Microsoft.Owin.Security.Google.xml
+D:\FL\Университет\ІІІ курс\Sigma I\ads\ads\bin\Microsoft.Owin.Security.Twitter.xml
+D:\FL\Университет\ІІІ курс\Sigma I\ads\ads\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\FL\Университет\ІІІ курс\Sigma I\ads\ads\bin\ru\System.Web.Helpers.resources.dll
+D:\FL\Университет\ІІІ курс\Sigma I\ads\ads\bin\ru\System.Web.Mvc.resources.dll
+D:\FL\Университет\ІІІ курс\Sigma I\ads\ads\bin\ru\System.Web.Optimization.resources.dll
+D:\FL\Университет\ІІІ курс\Sigma I\ads\ads\bin\ru\System.Web.Razor.resources.dll
+D:\FL\Университет\ІІІ курс\Sigma I\ads\ads\bin\ru\System.Web.WebPages.resources.dll
+D:\FL\Университет\ІІІ курс\Sigma I\ads\ads\bin\ru\System.Web.WebPages.Deployment.resources.dll
+D:\FL\Университет\ІІІ курс\Sigma I\ads\ads\bin\ru\System.Web.WebPages.Razor.resources.dll
+D:\FL\Университет\ІІІ курс\Sigma I\ads\ads\bin\ru\EntityFramework.resources.dll
+D:\FL\Университет\ІІІ курс\Sigma I\ads\ads\bin\ru\EntityFramework.SqlServer.resources.dll
+D:\FL\Университет\ІІІ курс\Sigma I\ads\ads\bin\ru\Microsoft.AspNet.Identity.Core.resources.dll
+D:\FL\Университет\ІІІ курс\Sigma I\ads\ads\bin\ru\Microsoft.AspNet.Identity.Owin.resources.dll
+D:\FL\Университет\ІІІ курс\Sigma I\ads\ads\bin\ru\Microsoft.AspNet.Identity.EntityFramework.resources.dll
+D:\FL\Университет\ІІІ курс\Sigma I\ads\ads\bin\ru\Microsoft.Owin.resources.dll
+D:\FL\Университет\ІІІ курс\Sigma I\ads\ads\bin\ru\Microsoft.Owin.Host.SystemWeb.resources.dll
+D:\FL\Университет\ІІІ курс\Sigma I\ads\ads\bin\ru\Microsoft.Owin.Security.resources.dll
+D:\FL\Университет\ІІІ курс\Sigma I\ads\ads\bin\ru\Microsoft.Owin.Security.Facebook.resources.dll
+D:\FL\Университет\ІІІ курс\Sigma I\ads\ads\bin\ru\Microsoft.Owin.Security.Google.resources.dll
+D:\FL\Университет\ІІІ курс\Sigma I\ads\ads\bin\ru\Microsoft.Owin.Security.Twitter.resources.dll
+D:\FL\Университет\ІІІ курс\Sigma I\ads\ads\bin\ru\Microsoft.Owin.Security.MicrosoftAccount.resources.dll
+D:\FL\Университет\ІІІ курс\Sigma I\ads\ads\obj\Debug\ads.csprojResolveAssemblyReference.cache
+D:\FL\Университет\ІІІ курс\Sigma I\ads\ads\obj\Debug\ads.dll
+D:\FL\Университет\ІІІ курс\Sigma I\ads\ads\obj\Debug\ads.pdb
+D:\FL\Университет\ІІІ курс\Sigma I\ads\ads\obj\Debug\ads.csproj.GenerateResource.Cache
+D:\TAMP\ads\ads\bin\ApplicationInsights.config
+D:\TAMP\ads\ads\bin\roslyn\csc.exe
+D:\TAMP\ads\ads\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\TAMP\ads\ads\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\TAMP\ads\ads\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\TAMP\ads\ads\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\TAMP\ads\ads\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\TAMP\ads\ads\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\TAMP\ads\ads\bin\roslyn\System.Collections.Immutable.dll
+D:\TAMP\ads\ads\bin\roslyn\System.Reflection.Metadata.dll
+D:\TAMP\ads\ads\bin\roslyn\vbc.exe
+D:\TAMP\ads\ads\bin\roslyn\VBCSCompiler.exe
+D:\TAMP\ads\ads\bin\roslyn\VBCSCompiler.exe.config
+D:\TAMP\ads\ads\bin\ads.dll.config
+D:\TAMP\ads\ads\bin\ads.dll
+D:\TAMP\ads\ads\bin\ads.pdb
+D:\TAMP\ads\ads\bin\Antlr3.Runtime.dll
+D:\TAMP\ads\ads\bin\EntityFramework.dll
+D:\TAMP\ads\ads\bin\EntityFramework.SqlServer.dll
+D:\TAMP\ads\ads\bin\Microsoft.AI.Agent.Intercept.dll
+D:\TAMP\ads\ads\bin\Microsoft.AI.DependencyCollector.dll
+D:\TAMP\ads\ads\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\TAMP\ads\ads\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\TAMP\ads\ads\bin\Microsoft.AI.Web.dll
+D:\TAMP\ads\ads\bin\Microsoft.AI.WindowsServer.dll
+D:\TAMP\ads\ads\bin\Microsoft.ApplicationInsights.dll
+D:\TAMP\ads\ads\bin\Microsoft.AspNet.Identity.Core.dll
+D:\TAMP\ads\ads\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\TAMP\ads\ads\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\TAMP\ads\ads\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\TAMP\ads\ads\bin\Microsoft.Owin.dll
+D:\TAMP\ads\ads\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\TAMP\ads\ads\bin\Microsoft.Owin.Security.Cookies.dll
+D:\TAMP\ads\ads\bin\Microsoft.Owin.Security.dll
+D:\TAMP\ads\ads\bin\Microsoft.Owin.Security.Facebook.dll
+D:\TAMP\ads\ads\bin\Microsoft.Owin.Security.Google.dll
+D:\TAMP\ads\ads\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\TAMP\ads\ads\bin\Microsoft.Owin.Security.OAuth.dll
+D:\TAMP\ads\ads\bin\Microsoft.Owin.Security.Twitter.dll
+D:\TAMP\ads\ads\bin\Microsoft.Web.Infrastructure.dll
+D:\TAMP\ads\ads\bin\Newtonsoft.Json.dll
+D:\TAMP\ads\ads\bin\Owin.dll
+D:\TAMP\ads\ads\bin\System.Web.Helpers.dll
+D:\TAMP\ads\ads\bin\System.Web.Mvc.dll
+D:\TAMP\ads\ads\bin\System.Web.Optimization.dll
+D:\TAMP\ads\ads\bin\System.Web.Razor.dll
+D:\TAMP\ads\ads\bin\System.Web.WebPages.Deployment.dll
+D:\TAMP\ads\ads\bin\System.Web.WebPages.dll
+D:\TAMP\ads\ads\bin\System.Web.WebPages.Razor.dll
+D:\TAMP\ads\ads\bin\WebGrease.dll
+D:\TAMP\ads\ads\bin\Microsoft.AI.DependencyCollector.xml
+D:\TAMP\ads\ads\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\TAMP\ads\ads\bin\Microsoft.AI.Web.xml
+D:\TAMP\ads\ads\bin\Microsoft.AI.WindowsServer.xml
+D:\TAMP\ads\ads\bin\Microsoft.ApplicationInsights.xml
+D:\TAMP\ads\ads\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\TAMP\ads\ads\bin\System.Web.Helpers.xml
+D:\TAMP\ads\ads\bin\System.Web.Mvc.xml
+D:\TAMP\ads\ads\bin\System.Web.Optimization.xml
+D:\TAMP\ads\ads\bin\System.Web.Razor.xml
+D:\TAMP\ads\ads\bin\System.Web.WebPages.xml
+D:\TAMP\ads\ads\bin\System.Web.WebPages.Deployment.xml
+D:\TAMP\ads\ads\bin\System.Web.WebPages.Razor.xml
+D:\TAMP\ads\ads\bin\Antlr3.Runtime.pdb
+D:\TAMP\ads\ads\bin\Newtonsoft.Json.xml
+D:\TAMP\ads\ads\bin\EntityFramework.xml
+D:\TAMP\ads\ads\bin\EntityFramework.SqlServer.xml
+D:\TAMP\ads\ads\bin\Microsoft.AspNet.Identity.Core.xml
+D:\TAMP\ads\ads\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\TAMP\ads\ads\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\TAMP\ads\ads\bin\Microsoft.Owin.xml
+D:\TAMP\ads\ads\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\TAMP\ads\ads\bin\Microsoft.Owin.Security.xml
+D:\TAMP\ads\ads\bin\Microsoft.Owin.Security.Facebook.xml
+D:\TAMP\ads\ads\bin\Microsoft.Owin.Security.Cookies.xml
+D:\TAMP\ads\ads\bin\Microsoft.Owin.Security.OAuth.xml
+D:\TAMP\ads\ads\bin\Microsoft.Owin.Security.Google.xml
+D:\TAMP\ads\ads\bin\Microsoft.Owin.Security.Twitter.xml
+D:\TAMP\ads\ads\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\TAMP\ads\ads\bin\ru\System.Web.Helpers.resources.dll
+D:\TAMP\ads\ads\bin\ru\System.Web.Mvc.resources.dll
+D:\TAMP\ads\ads\bin\ru\System.Web.Optimization.resources.dll
+D:\TAMP\ads\ads\bin\ru\System.Web.Razor.resources.dll
+D:\TAMP\ads\ads\bin\ru\System.Web.WebPages.resources.dll
+D:\TAMP\ads\ads\bin\ru\System.Web.WebPages.Deployment.resources.dll
+D:\TAMP\ads\ads\bin\ru\System.Web.WebPages.Razor.resources.dll
+D:\TAMP\ads\ads\bin\ru\EntityFramework.resources.dll
+D:\TAMP\ads\ads\bin\ru\EntityFramework.SqlServer.resources.dll
+D:\TAMP\ads\ads\bin\ru\Microsoft.AspNet.Identity.Core.resources.dll
+D:\TAMP\ads\ads\bin\ru\Microsoft.AspNet.Identity.Owin.resources.dll
+D:\TAMP\ads\ads\bin\ru\Microsoft.AspNet.Identity.EntityFramework.resources.dll
+D:\TAMP\ads\ads\bin\ru\Microsoft.Owin.resources.dll
+D:\TAMP\ads\ads\bin\ru\Microsoft.Owin.Host.SystemWeb.resources.dll
+D:\TAMP\ads\ads\bin\ru\Microsoft.Owin.Security.resources.dll
+D:\TAMP\ads\ads\bin\ru\Microsoft.Owin.Security.Facebook.resources.dll
+D:\TAMP\ads\ads\bin\ru\Microsoft.Owin.Security.Google.resources.dll
+D:\TAMP\ads\ads\bin\ru\Microsoft.Owin.Security.Twitter.resources.dll
+D:\TAMP\ads\ads\bin\ru\Microsoft.Owin.Security.MicrosoftAccount.resources.dll
+D:\TAMP\ads\ads\obj\Debug\ads.csprojResolveAssemblyReference.cache
+D:\TAMP\ads\ads\obj\Debug\ads.dll
+D:\TAMP\ads\ads\obj\Debug\ads.pdb
+D:\TAMP\ads\ads\obj\Debug\ads.Migrations.UpdateDataBase.resources
+D:\TAMP\ads\ads\obj\Debug\ads.csproj.GenerateResource.Cache
+D:\FL\Университет\ІІІ курс\Sigma I\ads\ads\obj\Debug\ads.Migrations.UpdateDataBase.resources
+D:\FL\Университет\ІІІ курс\Sigma I\ads\ads\obj\Debug\ads.Migrations.UpdateFieldIsRead.resources
+D:\FL\Университет\ІІІ курс\Sigma I\ads\ads\obj\Debug\ads.Migrations.AddedChats.resources
+D:\FL\Университет\ІІІ курс\Sigma I\ads\ads\bin\PagedList.dll
+D:\FL\Университет\ІІІ курс\Sigma I\ads\ads\bin\PagedList.Mvc.dll
+D:\FL\Университет\ІІІ курс\Sigma I\ads\ads\bin\PagedList.xml
+D:\FL\Университет\ІІІ курс\Sigma I\ads\ads\bin\PagedList.Mvc.xml
+D:\learning\Университет\ІІІ курс\Sigma I\ads\ads\bin\ApplicationInsights.config
+D:\learning\Университет\ІІІ курс\Sigma I\ads\ads\bin\roslyn\csc.exe
+D:\learning\Университет\ІІІ курс\Sigma I\ads\ads\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\learning\Университет\ІІІ курс\Sigma I\ads\ads\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\learning\Университет\ІІІ курс\Sigma I\ads\ads\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\learning\Университет\ІІІ курс\Sigma I\ads\ads\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\learning\Университет\ІІІ курс\Sigma I\ads\ads\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\learning\Университет\ІІІ курс\Sigma I\ads\ads\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\learning\Университет\ІІІ курс\Sigma I\ads\ads\bin\roslyn\System.Collections.Immutable.dll
+D:\learning\Университет\ІІІ курс\Sigma I\ads\ads\bin\roslyn\System.Reflection.Metadata.dll
+D:\learning\Университет\ІІІ курс\Sigma I\ads\ads\bin\roslyn\vbc.exe
+D:\learning\Университет\ІІІ курс\Sigma I\ads\ads\bin\roslyn\VBCSCompiler.exe
+D:\learning\Университет\ІІІ курс\Sigma I\ads\ads\bin\roslyn\VBCSCompiler.exe.config
+D:\learning\Университет\ІІІ курс\Sigma I\ads\ads\bin\ads.dll.config
+D:\learning\Университет\ІІІ курс\Sigma I\ads\ads\bin\ads.dll
+D:\learning\Университет\ІІІ курс\Sigma I\ads\ads\bin\ads.pdb
+D:\learning\Университет\ІІІ курс\Sigma I\ads\ads\bin\Antlr3.Runtime.dll
+D:\learning\Университет\ІІІ курс\Sigma I\ads\ads\bin\EntityFramework.dll
+D:\learning\Университет\ІІІ курс\Sigma I\ads\ads\bin\EntityFramework.SqlServer.dll
+D:\learning\Университет\ІІІ курс\Sigma I\ads\ads\bin\Microsoft.AI.Agent.Intercept.dll
+D:\learning\Университет\ІІІ курс\Sigma I\ads\ads\bin\Microsoft.AI.DependencyCollector.dll
+D:\learning\Университет\ІІІ курс\Sigma I\ads\ads\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\learning\Университет\ІІІ курс\Sigma I\ads\ads\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\learning\Университет\ІІІ курс\Sigma I\ads\ads\bin\Microsoft.AI.Web.dll
+D:\learning\Университет\ІІІ курс\Sigma I\ads\ads\bin\Microsoft.AI.WindowsServer.dll
+D:\learning\Университет\ІІІ курс\Sigma I\ads\ads\bin\Microsoft.ApplicationInsights.dll
+D:\learning\Университет\ІІІ курс\Sigma I\ads\ads\bin\Microsoft.AspNet.Identity.Core.dll
+D:\learning\Университет\ІІІ курс\Sigma I\ads\ads\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\learning\Университет\ІІІ курс\Sigma I\ads\ads\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\learning\Университет\ІІІ курс\Sigma I\ads\ads\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\learning\Университет\ІІІ курс\Sigma I\ads\ads\bin\Microsoft.Owin.dll
+D:\learning\Университет\ІІІ курс\Sigma I\ads\ads\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\learning\Университет\ІІІ курс\Sigma I\ads\ads\bin\Microsoft.Owin.Security.Cookies.dll
+D:\learning\Университет\ІІІ курс\Sigma I\ads\ads\bin\Microsoft.Owin.Security.dll
+D:\learning\Университет\ІІІ курс\Sigma I\ads\ads\bin\Microsoft.Owin.Security.Facebook.dll
+D:\learning\Университет\ІІІ курс\Sigma I\ads\ads\bin\Microsoft.Owin.Security.Google.dll
+D:\learning\Университет\ІІІ курс\Sigma I\ads\ads\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\learning\Университет\ІІІ курс\Sigma I\ads\ads\bin\Microsoft.Owin.Security.OAuth.dll
+D:\learning\Университет\ІІІ курс\Sigma I\ads\ads\bin\Microsoft.Owin.Security.Twitter.dll
+D:\learning\Университет\ІІІ курс\Sigma I\ads\ads\bin\Microsoft.Web.Infrastructure.dll
+D:\learning\Университет\ІІІ курс\Sigma I\ads\ads\bin\Newtonsoft.Json.dll
+D:\learning\Университет\ІІІ курс\Sigma I\ads\ads\bin\Owin.dll
+D:\learning\Университет\ІІІ курс\Sigma I\ads\ads\bin\PagedList.dll
+D:\learning\Университет\ІІІ курс\Sigma I\ads\ads\bin\PagedList.Mvc.dll
+D:\learning\Университет\ІІІ курс\Sigma I\ads\ads\bin\System.Web.Helpers.dll
+D:\learning\Университет\ІІІ курс\Sigma I\ads\ads\bin\System.Web.Mvc.dll
+D:\learning\Университет\ІІІ курс\Sigma I\ads\ads\bin\System.Web.Optimization.dll
+D:\learning\Университет\ІІІ курс\Sigma I\ads\ads\bin\System.Web.Razor.dll
+D:\learning\Университет\ІІІ курс\Sigma I\ads\ads\bin\System.Web.WebPages.Deployment.dll
+D:\learning\Университет\ІІІ курс\Sigma I\ads\ads\bin\System.Web.WebPages.dll
+D:\learning\Университет\ІІІ курс\Sigma I\ads\ads\bin\System.Web.WebPages.Razor.dll
+D:\learning\Университет\ІІІ курс\Sigma I\ads\ads\bin\WebGrease.dll
+D:\learning\Университет\ІІІ курс\Sigma I\ads\ads\bin\Microsoft.AI.DependencyCollector.xml
+D:\learning\Университет\ІІІ курс\Sigma I\ads\ads\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\learning\Университет\ІІІ курс\Sigma I\ads\ads\bin\Microsoft.AI.Web.xml
+D:\learning\Университет\ІІІ курс\Sigma I\ads\ads\bin\Microsoft.AI.WindowsServer.xml
+D:\learning\Университет\ІІІ курс\Sigma I\ads\ads\bin\Microsoft.ApplicationInsights.xml
+D:\learning\Университет\ІІІ курс\Sigma I\ads\ads\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\learning\Университет\ІІІ курс\Sigma I\ads\ads\bin\PagedList.xml
+D:\learning\Университет\ІІІ курс\Sigma I\ads\ads\bin\PagedList.Mvc.xml
+D:\learning\Университет\ІІІ курс\Sigma I\ads\ads\bin\System.Web.Helpers.xml
+D:\learning\Университет\ІІІ курс\Sigma I\ads\ads\bin\System.Web.Mvc.xml
+D:\learning\Университет\ІІІ курс\Sigma I\ads\ads\bin\System.Web.Optimization.xml
+D:\learning\Университет\ІІІ курс\Sigma I\ads\ads\bin\System.Web.Razor.xml
+D:\learning\Университет\ІІІ курс\Sigma I\ads\ads\bin\System.Web.WebPages.xml
+D:\learning\Университет\ІІІ курс\Sigma I\ads\ads\bin\System.Web.WebPages.Deployment.xml
+D:\learning\Университет\ІІІ курс\Sigma I\ads\ads\bin\System.Web.WebPages.Razor.xml
+D:\learning\Университет\ІІІ курс\Sigma I\ads\ads\bin\Antlr3.Runtime.pdb
+D:\learning\Университет\ІІІ курс\Sigma I\ads\ads\bin\Newtonsoft.Json.xml
+D:\learning\Университет\ІІІ курс\Sigma I\ads\ads\bin\EntityFramework.xml
+D:\learning\Университет\ІІІ курс\Sigma I\ads\ads\bin\EntityFramework.SqlServer.xml
+D:\learning\Университет\ІІІ курс\Sigma I\ads\ads\bin\Microsoft.AspNet.Identity.Core.xml
+D:\learning\Университет\ІІІ курс\Sigma I\ads\ads\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\learning\Университет\ІІІ курс\Sigma I\ads\ads\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\learning\Университет\ІІІ курс\Sigma I\ads\ads\bin\Microsoft.Owin.xml
+D:\learning\Университет\ІІІ курс\Sigma I\ads\ads\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\learning\Университет\ІІІ курс\Sigma I\ads\ads\bin\Microsoft.Owin.Security.xml
+D:\learning\Университет\ІІІ курс\Sigma I\ads\ads\bin\Microsoft.Owin.Security.Facebook.xml
+D:\learning\Университет\ІІІ курс\Sigma I\ads\ads\bin\Microsoft.Owin.Security.Cookies.xml
+D:\learning\Университет\ІІІ курс\Sigma I\ads\ads\bin\Microsoft.Owin.Security.OAuth.xml
+D:\learning\Университет\ІІІ курс\Sigma I\ads\ads\bin\Microsoft.Owin.Security.Google.xml
+D:\learning\Университет\ІІІ курс\Sigma I\ads\ads\bin\Microsoft.Owin.Security.Twitter.xml
+D:\learning\Университет\ІІІ курс\Sigma I\ads\ads\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\learning\Университет\ІІІ курс\Sigma I\ads\ads\bin\ru\System.Web.Helpers.resources.dll
+D:\learning\Университет\ІІІ курс\Sigma I\ads\ads\bin\ru\System.Web.Mvc.resources.dll
+D:\learning\Университет\ІІІ курс\Sigma I\ads\ads\bin\ru\System.Web.Optimization.resources.dll
+D:\learning\Университет\ІІІ курс\Sigma I\ads\ads\bin\ru\System.Web.Razor.resources.dll
+D:\learning\Университет\ІІІ курс\Sigma I\ads\ads\bin\ru\System.Web.WebPages.resources.dll
+D:\learning\Университет\ІІІ курс\Sigma I\ads\ads\bin\ru\System.Web.WebPages.Deployment.resources.dll
+D:\learning\Университет\ІІІ курс\Sigma I\ads\ads\bin\ru\System.Web.WebPages.Razor.resources.dll
+D:\learning\Университет\ІІІ курс\Sigma I\ads\ads\bin\ru\EntityFramework.resources.dll
+D:\learning\Университет\ІІІ курс\Sigma I\ads\ads\bin\ru\EntityFramework.SqlServer.resources.dll
+D:\learning\Университет\ІІІ курс\Sigma I\ads\ads\bin\ru\Microsoft.AspNet.Identity.Core.resources.dll
+D:\learning\Университет\ІІІ курс\Sigma I\ads\ads\bin\ru\Microsoft.AspNet.Identity.Owin.resources.dll
+D:\learning\Университет\ІІІ курс\Sigma I\ads\ads\bin\ru\Microsoft.AspNet.Identity.EntityFramework.resources.dll
+D:\learning\Университет\ІІІ курс\Sigma I\ads\ads\bin\ru\Microsoft.Owin.resources.dll
+D:\learning\Университет\ІІІ курс\Sigma I\ads\ads\bin\ru\Microsoft.Owin.Host.SystemWeb.resources.dll
+D:\learning\Университет\ІІІ курс\Sigma I\ads\ads\bin\ru\Microsoft.Owin.Security.resources.dll
+D:\learning\Университет\ІІІ курс\Sigma I\ads\ads\bin\ru\Microsoft.Owin.Security.Facebook.resources.dll
+D:\learning\Университет\ІІІ курс\Sigma I\ads\ads\bin\ru\Microsoft.Owin.Security.Google.resources.dll
+D:\learning\Университет\ІІІ курс\Sigma I\ads\ads\bin\ru\Microsoft.Owin.Security.Twitter.resources.dll
+D:\learning\Университет\ІІІ курс\Sigma I\ads\ads\bin\ru\Microsoft.Owin.Security.MicrosoftAccount.resources.dll
+D:\learning\Университет\ІІІ курс\Sigma I\ads\ads\obj\Debug\ads.csprojAssemblyReference.cache
+D:\learning\Университет\ІІІ курс\Sigma I\ads\ads\obj\Debug\ads.Migrations.UpdateDataBase.resources
+D:\learning\Университет\ІІІ курс\Sigma I\ads\ads\obj\Debug\ads.Migrations.UpdateFieldIsRead.resources
+D:\learning\Университет\ІІІ курс\Sigma I\ads\ads\obj\Debug\ads.Migrations.AddedChats.resources
+D:\learning\Университет\ІІІ курс\Sigma I\ads\ads\obj\Debug\ads.csproj.GenerateResource.cache
+D:\learning\Университет\ІІІ курс\Sigma I\ads\ads\obj\Debug\ads.csproj.CoreCompileInputs.cache
+D:\learning\Университет\ІІІ курс\Sigma I\ads\ads\obj\Debug\ads.csproj.CopyComplete
+D:\learning\Университет\ІІІ курс\Sigma I\ads\ads\obj\Debug\ads.dll
+D:\learning\Университет\ІІІ курс\Sigma I\ads\ads\obj\Debug\ads.pdb

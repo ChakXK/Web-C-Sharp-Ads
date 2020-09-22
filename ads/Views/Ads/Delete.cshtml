@@ -1,0 +1,93 @@
+﻿@model ads.Models.Ad
+
+@{
+    ViewBag.Title = "Delete";
+    Layout = "~/Views/Shared/ADSLayout.cshtml";
+}
+
+<section class="ftco-section bg-light ftco-bread">
+    <div class="container">
+        <div class="row no-gutters slider-text align-items-center">
+            <div class="col-md-10 ftco-animate">
+                <p class="breadcrumbs">
+                    <span><a href="/Ads/Index">Домой</a></span>
+                    <span><a href="/Ads/Details/@Model.id">Подробно</a></span><span>Удаление</span>
+                </p>
+                <hr />
+            </div>
+        </div>
+    </div>
+</section>
+
+<h3>Вы уверены, что хотите удалить объявление?</h3>
+<div>
+    <hr />
+    <dl class="dl-horizontal">
+
+
+        <dt>
+            @Html.DisplayNameFor(model => model.title)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.title)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.text)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.text)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.AdStatus.name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.AdStatus.name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.City.name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.City.name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Subject.name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Subject.name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Image.name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Image.name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.datetime)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.datetime)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Delete" class="btn btn-default" />
+        </div>
+    }
+</div>

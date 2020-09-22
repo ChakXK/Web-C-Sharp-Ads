@@ -1,0 +1,39 @@
+﻿@{
+    ViewBag.Title = "Отзывы";
+    Layout = "~/Views/Shared/ADSLayout.cshtml";
+}
+@using ads.Models
+@using Microsoft.AspNet.Identity
+@model ads.Models.ReviewsAboutViewModel
+
+<section class="ftco-section bg-light ftco-bread">
+    <div class="container">
+        <div class="row no-gutters slider-text align-items-center">
+            <div class="col-md-10 ftco-animate">
+                <p class="breadcrumbs"> <span>Отзывы</span></p>
+                <hr />
+            </div>
+        </div>
+    </div>
+</section>
+
+<ul class="comment-list">
+    @foreach (var item in Model.Reviews)
+    {
+        <li class="comment">
+            <div class="comment-body">
+                <h3>@item.UserSender.UserName</h3>
+                <div class="meta">@item.datetime</div>
+                <p>@item.text</p>
+            </div>
+        </li>
+    }
+</ul>
+@if (User.Identity.IsAuthenticated && User.Identity.GetUserId() != Model.Recipient.Id)
+{
+    @Html.Partial("~/Views/Reviews/CreatePartial.cshtml", new Review
+{
+    idRecipient = Model.Recipient.Id,
+    idSender = User.Identity.GetUserId()
+})
+}

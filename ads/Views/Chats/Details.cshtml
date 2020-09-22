@@ -1,0 +1,55 @@
+﻿@using ads.Models
+@model ads.Models.Chat
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/ADSLayout.cshtml";
+}
+
+    <section class="ftco-section bg-light ftco-bread">
+        <div class="container">
+            <div class="row no-gutters slider-text align-items-center">
+                <div class="col-md-10 ftco-animate">
+                    <p class="breadcrumbs"><span class="mr-2"><a href="/Ads/Index">Домой</a></span>
+                     <span class="mr-2"><a href="/ChatUsers">Сообщения</a></span><span>Подробно</span></p>
+                    <hr />
+                </div>
+            </div>
+        </div>
+    </section>
+
+        <dl class="dl-horizontal">
+            <dt>
+                @Html.DisplayNameFor(model => Model.title)
+            </dt>
+
+            @if (Model.title != null)
+            {
+                <dd>
+                    @Html.DisplayFor(modelItem => Model.title)
+                </dd>
+            }
+            else
+            {
+                <dd>
+                    @Html.DisplayFor(modelItem => Model.Ad.title)
+                </dd>
+            }
+
+        </dl>
+                @foreach (var mess in Model.Messages)
+                {
+                    <p> </p>
+                        <tr>
+                            <td>
+                                @Html.DisplayFor(itemmes => mess.UserSender.UserName) :
+                            </td>
+
+                            <td>
+                                @Html.DisplayFor(itemmes => mess.text)
+                            </td>
+                        </tr>
+                   
+                }
+                @Html.Partial("~/Views/Messages/CreateByChatPartial.cshtml", new Message { Chat = new Chat { id = Model.id } })
+   

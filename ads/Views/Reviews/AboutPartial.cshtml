@@ -1,0 +1,28 @@
+﻿@using Microsoft.AspNet.Identity
+@using ads.Models
+@model ads.Models.ReviewsAboutViewModel
+
+@{
+    ViewBag.Title = "Index";
+}
+
+    <ul class="comment-list">
+        @foreach (var item in Model.Reviews)
+        {
+                <li class="comment">
+                    <div class="comment-body">
+                        <h3>@item.UserSender.UserName</h3>
+                        <div class="meta">@item.datetime</div>
+                        <p>@item.text</p>
+                    </div>
+                </li>
+        }
+    </ul>
+@if (User.Identity.IsAuthenticated && User.Identity.GetUserId() != Model.Recipient.Id)
+    {
+@Html.Partial("~/Views/Reviews/CreatePartial.cshtml", new Review
+{
+    idRecipient = Model.Recipient.Id,
+    idSender = User.Identity.GetUserId()
+})
+}

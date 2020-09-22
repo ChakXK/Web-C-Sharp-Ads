@@ -1,0 +1,31 @@
+﻿@model ads.Models.Message
+
+<div class="comment-form-wrap pt-5">
+    <h3 class="mb-5">Написать личное сообщение</h3>
+    @using (Html.BeginForm("CreateWithAd", "Messages", FormMethod.Post))
+    {
+        @Html.AntiForgeryToken()
+        @Html.Hidden("idAd", Model.Chat.idAd as int?)
+        @*@if (Model.Chat.id != 0)
+        {
+        @Html.Hidden("idChat", Model.Chat.id as int?)
+        }*@
+        <div class="sidebar-box col text-center">
+            <div class="form-group">
+                <div class="col-md-10 ">
+                    @Html.EditorFor(model => model.text, new { htmlAttributes = new { @class = "form-control",
+
+                @cols = "30", @rows = "5"
+               } })
+                    @Html.ValidationMessageFor(model => model.text, "", new { @class = "text-danger" })
+                </div>
+            </div>
+        </div>
+                <div class="sidebar-box col text-center">
+                    <div class="form-group">
+                        <input type="submit" value="Отправить" class="btn btn-primary py-3 px-5">
+                    </div>
+                </div>
+    }
+    </div>
+
